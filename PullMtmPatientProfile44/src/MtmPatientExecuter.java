@@ -5,7 +5,7 @@ public class MtmPatientExecuter {
 	public static void main(String[] args) {
 
 		// provide the path to your shell script
-		String scriptPath = "/home/sriharipriya/mtm_daily.sh";
+		String scriptPath = "/home/sriharipriya/PullMtmPatientProfile44/script/mtm_daily.sh";
 
 		try {
 			ProcessBuilder processBuilder = new ProcessBuilder("/bin/bash", scriptPath);
