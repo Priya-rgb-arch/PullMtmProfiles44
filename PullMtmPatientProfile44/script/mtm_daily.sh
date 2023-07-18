@@ -7,5 +7,5 @@ destination_directory="/home/sriharipriya/PullMtmPatientProfile44/destination"
 #current_date=$(date +'%Y%m%d')
 current_date=20240718
 # Search for the matching file and copy it to the destination directory
-find "$source_directory" -type f -name "mtm_patient_pro file_${current_date}_*.gpg" -exec cp {} "$destination_directory" \;
+find "$source_directory" -type f -name "mtm_patient_pro file_${current_date}_*.gpg" -exec cp -t "$destination_directory" {} +
 #File name should be for example --> mtm_patient_pro file_20230718_test1.gpg
