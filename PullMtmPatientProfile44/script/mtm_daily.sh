@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Set the directory where the files are located
-source_directory="/path/to/source_directory"
+source_directory="/home/sriharipriya/PullMtmPatientProfile44/source/mtm_patient_pro file_20230718_test1.gpg"
 
 # Set the destination directory where you want to pull the files
-destination_directory="/path/to/destination_directory"
+destination_directory="/home/sriharipriya/PullMtmPatientProfile44/"
 
 # Get the current date in the format YYYYMMDD
 #current_date=$(date +'%Y%m%d')
